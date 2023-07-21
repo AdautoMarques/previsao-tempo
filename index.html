@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500&family=Oxanium:wght@300;400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-buscar" onclick="clickBotao()">
+            <img clas="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
+        <div class="caixa-media">
+            <h2 class="cidade"></h2>
+
+            <p class="temp"></p>
+
+            <div class="caixa-menor">
+                <img class="img-previsao">
+
+                <p class="texto-previsao"></p>
+            </div>
+
+            <p class="umidade"></p>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk5MZ0ZQd3A5aFNhYXNhNVgtQmVYR3ZDV3BYUXxBQ3Jtc0tsTDJqbE9CZWF3amdHVk0wdHUxbXR1UnNHWUpsWlI0dk13RWg1WV9raVZBbWhHcTZwRFhwVnF1QjFnbXNweGtuRUlJRVRYZ3BkQzJfUWI4cTR0NGRFY1I1MUJGRFFadE1yZEp0MzA2b0tZY213bF9DSQ&q=https%3A%2F%2Fsource.unsplash.com%2F1600x900%2F%3Flandscape&v=qxzqEuAOYZ4");
+}
+
+.caixa-maior{
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+    height: 95%;
+    max-height: 300px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid  orangered;
+    border-radius: 25px;
+    font-size: 20px;
+    background: #7c7c7c2b;
+    color: #FFFFFF;
+    width: calc(100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: orangered;
+    float: right;
+    transition: filter 0.2s;
+}
+
+button:hover{
+    filter:brightness(0.8)
+}
+
+
+img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+input::placeholder {
+    color: orangered;
+  }
+
+.img-previsao{
+    width: 40px;
+}
+
+.umidade{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+
